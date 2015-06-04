@@ -20,11 +20,5 @@ Getting started with Zumo robots, using [Johnny Five](https://github.com/rwaldro
 
 #### Installation
 1. Follow the installation instructions above.
-2. In your shell, go to the directory for the sub-project, and run:
-   ```bash
-   npm install
-   ```
-3. Run johnny-five code:
-   ```bash
-   node myZumo_prototype1.js
-   ```
+2. In your shell, go to the directory for the sub-project, and run: ```npm install```
+3. Run johnny-five code: ```node myZumo_prototype1.js```
