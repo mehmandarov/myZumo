@@ -1,0 +1,8 @@
+{
+ "name": "Zumo: Prototype 1",
+ "version": "1.0",
+ "description": "Getting started with Zumo robots. Basic movements and LEDs.",
+ "dependencies": {
+    "johnny-five": "^0.8.29"
+ }
+}
