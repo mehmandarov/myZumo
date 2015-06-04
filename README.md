@@ -4,7 +4,7 @@ Getting started with Zumo robots. Basic movements and LEDs. Commands are read fr
 
 ## How it works
 
-### Protptype 1
+### Prototype 1
 When the text file, messages.txt, is overwritten or saved it triggers the script to parse and run the command in the file.
 
 ## Installation
