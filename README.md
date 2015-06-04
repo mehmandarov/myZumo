@@ -4,7 +4,7 @@ Code for controlling Zumo Robots, v1.2.
 
 ## How it works
 ### Prototype 1
-Getting started with Zumo robots. Basic movements and LEDs. Commands are read from a file in the same directory. When the text file, messages.txt, is overwritten or saved it triggers the script to parse and run the command in the file.
+Getting started with Zumo robots using [Johnny Five](https://github.com/rwaldron/johnny-five). Basic movements and LEDs. Commands are read from a file in the same directory. When the text file, messages.txt, is overwritten or saved it triggers the script to parse and run the command in the file.
 
 ## Installation
 
