@@ -10,7 +10,7 @@ Code for controlling Zumo Robots, v1.2.
   * Make sure the drivers fro Arduno are installed on the computer
   * Open and upload the Standard Firmata (File->Examples->Firmata->Standard Firmata) to the Arduino.  
 2. Install [Node.js](https://nodejs.org/).
-3. Make sure node and npm are in your path (i.e. you can run both commands in your shell)
+3. Make sure ```node``` and ```npm``` are in your path (i.e. you can run both commands in your shell)
 
 
 ## How it works
