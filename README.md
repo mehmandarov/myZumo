@@ -14,15 +14,13 @@ Getting started with Zumo robots, using [Johnny Five](https://github.com/rwaldro
   * Make sure the drivers fro Arduno are installed on the computer
   * Open and upload the Standard Firmata (File->Examples->Firmata->Standard Firmata) to the Arduino.  
 2. Install [Node.js](https://nodejs.org/).
-3. Make sure node and npm are in your path (i.e. you can run both commands in yout shell)
-4. In your shell, go to the directory for this project, and run
-
+3. Make sure node and npm are in your path (i.e. you can run both commands in your shell)
+4. In your shell, go to the directory for this project, and run:
    ```bash
    npm install
    ```
 
 5. Run johnny-five code:
-
    ```bash
    node myZumo_prototype1.js
    ```
