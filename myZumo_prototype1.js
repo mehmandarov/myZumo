@@ -22,7 +22,7 @@ board.on("ready", function() {
   console.log("Connected to Johnny-Five!");
 
   // Speed can be anything from 0 to 255.
-  var SPEED = 80;
+  var SPEED = 100;
 
   // Initialize the motors and servos.
   var leftMotor = new five.Motor([10, 8]);
@@ -33,7 +33,7 @@ board.on("ready", function() {
 
   // Lets the LED strobe (in milliseconds).
   var ledStobe = function(){
-    myLed.strobe( 300 );
+    myLed.strobe(300);
   }
   
   // Turn the LED off.
@@ -43,27 +43,33 @@ board.on("ready", function() {
   
   // Make Zumo move forward. Remeber: You have two motors.
   var go = function(){
-    leftMotor.rev( SPEED );
-    rightMotor.rev (SPEED );
+    leftMotor.rev(SPEED);
+    rightMotor.rev (SPEED);
+  }
+  
+  // Make Zumo move backwards.
+  var back = function(){
+    leftMotor.fwd(SPEED);
+    rightMotor.fwd (SPEED);
   }
   
   // Turn Zumo left.
   var left = function(){
     // Turning is always done at the same speed
-    leftMotor.fwd( SPEED * 0.5 );
-    rightMotor.rev( SPEED * 0.5 );
+    leftMotor.fwd(SPEED);
+    rightMotor.rev(SPEED);
   }
 
   // Turn Zumo right.
   var right = function(){
     // Turning is always done at the same speed
-    leftMotor.rev( SPEED * 0.5 );
-    rightMotor.fwd( SPEED * 0.5  );
+    leftMotor.rev(SPEED);
+    rightMotor.fwd(SPEED);
   }
 
   // Stop any Zumo motor movement.
   var stop = function(){
-    // Full stop.
+    // Full stop
     leftMotor.stop();
     rightMotor.stop();
   }
@@ -97,9 +103,18 @@ board.on("ready", function() {
       case "right":
         right();
         break;
+      case "blink":
+        ledStobe();
+        break;
+      case "blinkStop":
+        ledStop();
+        break;
+      case "back":
+        back();
+        break;
       default:
         // Unknown command. Log it. Do nothing.
-        console.log("Unknown command: ["+command+"].");
+        console.log("Unknown command: ["+data+"].");
     }
     });
   });
