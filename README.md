@@ -16,9 +16,9 @@ Code for controlling Zumo Robots, v1.2.
 ## How it works
 ### Prototype 1
 #### Description
-Getting started with Zumo robots, using [Johnny Five](https://github.com/rwaldron/johnny-five). Basic movements and LEDs. Commands are read from a file in the same directory. When the text file, messages.txt, is overwritten or saved it triggers the script to parse and run the command in the file.
+Getting started with Zumo robots, using [Johnny-Five](https://github.com/rwaldron/johnny-five). Basic movements and LEDs. Commands are read from a file in the same directory. When the text file, messages.txt, is overwritten or saved it triggers the script to parse and run the command in the file.
 
 #### Installation
 1. Follow the installation instructions above.
 2. In your shell, go to the directory for the sub-project, and run: ```npm install```
-3. Run johnny-five code: ```node myZumo_prototype1.js```
+3. Run the Johnny-Five code: ```node myZumo_prototype1.js```
