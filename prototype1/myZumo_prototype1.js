@@ -1,10 +1,10 @@
 /**
  *  Basic Zumo Controller:
  *  Getting started with Zumo robots. Basic movements and LEDs.
- *  Commands are read from a file in the same directory.
+ *  Commands are read from a file in the same directory (messages.txt).
  *  ---------------
  *
- *  Run this module with the command "node zumo1.js".
+ *  Run this module with the command "node myZumo_prototype1.js".
  *
  */
 
