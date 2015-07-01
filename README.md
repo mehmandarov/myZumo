@@ -5,7 +5,7 @@ Code for controlling Zumo Robots, v1.2.
 ## Installation
 
 1. Follow the [getting started page](http://www.arduino.cc/en/Guide/HomePage) for Arduino to set up the environment
-  * Download and install Android IDE
+  * Download and install Arduino IDE
   * Connect Arduino to Zumo and connect it to the computer
   * Make sure the drivers fro Arduno are installed on the computer
   * Open and upload the Standard Firmata (File->Examples->Firmata->Standard Firmata) to the Arduino.  
